@@ -29,6 +29,13 @@
             {
               "client_id": "87510516628-gd9vbonqo51i0qskost72vdq36sktk4l.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "87510516628-jacsjo52cnom03sdbabnp7d789nbhrsd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instagramClone"
+              }
             }
           ]
         }
@@ -58,6 +65,13 @@
             {
               "client_id": "87510516628-gd9vbonqo51i0qskost72vdq36sktk4l.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "87510516628-jacsjo52cnom03sdbabnp7d789nbhrsd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instagramClone"
+              }
             }
           ]
         }

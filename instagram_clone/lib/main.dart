@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       
         
       
-      home: Scaffold(body: Text("daha iyisi için şimdi."),)
+      home: Scaffold(body: Text("daha iyisi için şimdi"),)
       
     );
   }

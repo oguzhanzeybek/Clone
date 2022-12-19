@@ -4,7 +4,7 @@ import 'package:instagram_clone/utils/dimensions.dart';
 class ReponsiveLayout extends StatelessWidget {
   final Widget webScreenLayout;
   final Widget mobileScreenLayout;
-  const ReponsiveLayout(
+    ReponsiveLayout(
       {super.key,
       required this.webScreenLayout,
       required this.mobileScreenLayout});
@@ -12,11 +12,12 @@ class ReponsiveLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, constraints) {
-        if (constraints.maxWidth > webScreenSize) {
+      builder: (context,  raints) {
+        if ( raints.maxWidth > webScreenSize) {
           return webScreenLayout;
         }
         return mobileScreenLayout;
+
       },
     );
   }

@@ -7,6 +7,7 @@ import 'package:instagram_clone/utils/colors.dart';
 
 import 'firebase_options.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -16,7 +17,7 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+    MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
         home: Scaffold(
-          body: const ReponsiveLayout(
+          body:   ReponsiveLayout(
             webScreenLayout: WebScreenLayout(),
             mobileScreenLayout: MobilScreenLayout(),
           ),

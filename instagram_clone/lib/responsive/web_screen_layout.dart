@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class WebScreenLayout extends StatelessWidget {
-  const WebScreenLayout({super.key});
+    WebScreenLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return   Scaffold(
       body: Center(
         child: Text("this is web"),
       ),
